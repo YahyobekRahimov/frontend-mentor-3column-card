@@ -1,7 +1,4 @@
-
-:root {
-  
-}
+@import "./variables";
 
 * {
   padding: 0;
@@ -9,8 +6,13 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 15px;
+}
+
 body {
- 
+  font-family: 'Lexend Deca', sans-serif;
+  color: $clr-white-900;
 }
 
 .container {
@@ -19,3 +21,4 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
